@@ -181,7 +181,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
             <div className="grid grid-cols-2 gap-2">
               <button
                 type="button"
-                onClick={() => handleQuickDemoLogin('Lead Security Architect', 'demo@example.com', 'Demo Auditor')}
+                onClick={() => handleQuickDemoLogin('Lead Security Architect', 'santhu@sentinel.ai', 'Santhu Kumar')}
                 className="p-2 bg-slate-950 border border-slate-800 hover:border-cyan-700/60 rounded text-left transition-colors"
               >
                 <div className="font-semibold text-cyan-400 truncate">Santhu Kumar</div>
